@@ -1,2 +1,2 @@
 # Cloud_Computing
-What is cloud computing
+What is cloud computing and its uses
