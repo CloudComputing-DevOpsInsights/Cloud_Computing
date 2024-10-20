@@ -1,1 +1,14 @@
+AWS Identity and Access Management (IAM) helps you control who can access your AWS resources and what they can do with them. Here’s a simple breakdown:
+
+IAM Users: These are individual accounts for people or services that need access to AWS. Each user gets a unique set of credentials (like a username and password). For example, if you have a small team of developers, you can create an IAM user for each team member with specific permissions to access certain AWS services.
+
+IAM Groups: These are collections of users. Instead of giving permissions to each user one by one, you can put users into a group and assign permissions to the group. For example, if you have a group called "Developers," you can grant them access to the EC2 service, and everyone in that group will automatically have those permissions.
+
+IAM Roles: These are like temporary identities with permissions that can be assumed by users or services. Roles are often used by applications or services to access resources. For example, an EC2 instance can assume a role to access S3 buckets without needing to store AWS credentials on the instance itself.
+
+In short:
+
+Users are for individuals.
+Groups are for managing multiple users easily.
+Roles are for granting temporary permissions to users or AWS services.
 
