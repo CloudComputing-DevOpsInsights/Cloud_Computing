@@ -6,8 +6,6 @@ IAM Groups: These are collections of users. Instead of giving permissions to eac
 
 IAM Roles: These are like temporary identities with permissions that can be assumed by users or services. Roles are often used by applications or services to access resources. For example, an EC2 instance can assume a role to access S3 buckets without needing to store AWS credentials on the instance itself.
 
-In short:
-
 Users are for individuals.
 Groups are for managing multiple users easily.
 Roles are for granting temporary permissions to users or AWS services.
